@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    background-color: rgb(224, 225, 221);
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logoheader{
+    width: 139px;
+    height: 86px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.selecmenu{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 32px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.selecmenu:hover{
+    background-color: rgb(195, 196, 191);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    position: relative;
+    float: right;
+}
+
+.user .icons{
+    display: flex;
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.user .icons:hover{
+    background-color: rgb(195, 196, 191);
+    transition: 0.3s;
+}
+
+/* MONTEGM.HTML
+*/
+#tipo{
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+}
+#tipo > div img{
+    display: flex;
+    width: 535px;
+    height: 666px;
+}
+
+.subtipos{
+    display: flex;
+}
+
+#tipagem{
+    display: flex;
+}
+#tipagem label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.tipoinput{
+    font-size: 32px;
+    width: 514px;
+    height: 56px;
+    margin-left: 15px;
+}
+
+#tipagem ::placeholder{
+    font-weight: bold;
+}
+input{
+    font-size: 32px;
+    width: 685px;
+    height: 75px;
+    display: flex;
+    align-items: right;
+}
+.separado{
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.montagem{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.logo img{
+    width: 330px;
+    height: 160px;
+}
+/* Componente */
+#componente > p{
+    margin-left: 80px;
+    font-size: 32px;
+    font-weight: bold;
+}
+#componentes{
+    width: 85%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+table .imgstabela{
+    width: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table button{
+    padding: 15px;
+    font-size: 36px;
+    font-weight: bold;
+    background-color: rgb(199, 200, 196);
+    border: solid rgb(13, 27, 42);
+    color: rgb(13, 27, 42);
+}
+table button:hover{
+    color: midnightblue;
+    border: solid midnightblue;
+}
+#tabela1{
+    font-weight: bold;
+}
+#tabela1 td{
+    font-size: 36px;
+    width: 1584px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tabela1 tr{
+    background-color: rgb(199, 200, 196);
+    width: 1584px;
+    height: 172px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+/* Orcamento
+ */
+#orcamento{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#modo{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+#modo input{
+    width: 485px;
+    height: 45px;
+}
+#filtro{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+#filtro input{
+    width: 485px;
+    height: 45px;
+}
+div .imgorca{
+    width: 53px;
+}
+
+.preco{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: bold;
+}
+#tabela2{
+    font-weight: bold;
+}
+#tabela2 td{
+    font-size: 20px;
+}
+
+.real{
+    padding-left: 15px;
+    font-size: 32px;
+}
+.real p{
+    font-size: 16px;
+    margin: 0px 0px;
+}
+.valores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.valortotal{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.valordinheiro{
+    font-size: 64px;
+    font-weight: bold;
+    color: rgb(65, 90, 119);
+}
+
+#gabinete{
+    display: flex;
+}
+#gabinete img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 535px;
+    height: 666px;
+}
+#total{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+#total p{
+    font-size: 64px;
+    color:rgba(65, 90, 119, 1) ;
+}
+#valor{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: rgb(13, 27, 42);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.ajuda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.empresa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+}
+
+.ftitle{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(121, 121, 121);
+    padding: 10px;
+}
+
+.flinks{
+    padding: 0;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.newstext{
+    color: white;
+    font-size: 25px;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inputemail{
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(13, 27, 42);
+    font-size: 32px;
+}
+
+.inputemail::placeholder{
+    color: white;
+}
+
+.paisreg{
+    padding: 0;
+    color: rgb(121, 121, 121);
+    font-size: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.pais{
+    color: white;
+    padding: 0;
+    font-size: 32px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
