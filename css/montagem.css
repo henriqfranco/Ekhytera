@@ -110,11 +110,13 @@ li{
     font-weight: bold;
 }
 input{
+    background-color: rgb(199, 200, 196);
     font-size: 32px;
     width: 685px;
     height: 75px;
     display: flex;
     align-items: right;
+    border: 1px solid rgb(157, 158, 155);
 }
 .separado{
     font-size: 32px;
@@ -200,6 +202,7 @@ table button:hover{
     justify-content: space-evenly;
 }
 #modo{
+    justify-content: center;
     display: flex;
     align-items: center;
     font-size: 32px;
@@ -211,6 +214,7 @@ table button:hover{
 }
 #filtro{
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 32px;
     font-weight: bold;
