@@ -194,6 +194,13 @@ table button:hover{
     margin-bottom: 20px;
 }
 
+.botaovermais{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border: 3px solid black;
+}
+
 /* Orcamento
  */
 #orcamento{
