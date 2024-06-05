@@ -136,8 +136,90 @@ li{
     color: rgb(65, 90, 119);
 }
 
+.avalia{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.avaliavermais{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 222px;
+    height: 75px;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(65, 90, 119);
+}
 
+.avaliacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txtavalia{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.atributos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.atributos img{
+    margin-bottom: 22px;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comentarios img{
+    margin-bottom: 22px;
+}
+
+.preços{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.preçoesquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preçoesquerda img{
+    margin-bottom: 22px;
+}
+
+.semelhantes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.semelhantes img{
+    margin-bottom: 22px;
+}
 
 footer{
     background-color: rgb(13, 27, 42);
