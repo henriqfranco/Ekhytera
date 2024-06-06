@@ -70,22 +70,9 @@ li{
 }
 /* HEADER */
 
-/* EDUCAÇÃO */
-.jogos{
-    margin-top: 50px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.contjogos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .txtoverimg{
     margin-top: 50px;
+    margin-bottom: 50px;
     position: relative;
     text-align: center;
 }
@@ -104,129 +91,115 @@ li{
     transform: translate(-50%, -130%);
 }
 
-.txtcontedu{
-    font-size: 32px;
-    text-align: center;
-}
-
-.edudest{
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.imgacer{
-    width: 1659px;
-    height: 712px;
-}
-
-.imgperf{
-    width: 551px;
-    height: 662px;
-}
-
-.imgcomp{
-    width: 1088px;
-    height: 664px;
-}
-/* EDUCAÇÃO */
-
 .container {
-    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
 .box{
-    background-color: rgb(255, 255, 255);
-}
-
-.box img {
-    max-width: 100%;
-    height: auto;
-}
-
-.box h3 {
-    margin-top: 10px;
-}
-
-  h2 {
-    border: 2px solid black; 
-    padding: 10px; 
-    display: inline-block; 
-  }
-
-
-.selecver {
-    color: black;
-}
-
-/* BOX 2 */
-
-.container {
+    background-color: white;
+    padding: 5px;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  .box {
-    flex-basis: calc(25% - 20px);
-    text-align: center;
-    margin-bottom: 20px;
-    border: 2px solid rgb(255, 255, 255);  
-    padding: 10px; 
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .box img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .box h3 {
-    margin-top: 10px;
-  }
+    flex-direction: column;
+    align-items: center;
+}
 
-  h2 {
-    border: 2px solid black; 
-    padding: 10px; 
-    display: inline-block; 
-  }
-  
-  .container2 {
+.imgbox{
+    width: 457px;
+    height: 266px;
+}
+
+.txtbox{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.avaliavermais{
+    border: 2px solid black;
     display: flex;
-    justify-content: space-between;
-
-  }
-  
-  .box2 {
-    flex-basis: calc(25% - 20px);
-    text-align: center;
-    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
-    margin-left: 15px;
-    padding: 10px;
-    border: 2px solid rgb(255, 255, 255);  
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .box2 img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .box2 h3 {
-    margin-top: 10px;
-  }
+    width: 222px;
+    height: 75px;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(65, 90, 119);
+}
 
-  h2 {
-    border: 2px solid black; 
-    padding: 10px; 
-    display: inline-block; 
-  }
+.container2{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
 
-  footer{
+.box2{
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgbox2{
+    width: 250px;
+    height: 250px;
+}
+
+.txtbox2{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.container3{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.txtcate{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.partes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cima{
+    margin-bottom: 20px;
+}
+
+.baixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
     background-color: rgb(13, 27, 42);
     display: flex;
     justify-content: space-between;
@@ -306,36 +279,3 @@ li{
     margin-right: 10px;
 }
 /* FOOTER */
-  
-.imagensfim {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.imagensGames{
-    display: flex;
-   
-    margin: 20px;
-}
-
-.imagemColuna{
-    display: flex;
-    flex-direction: column;
-}
-
-.imagensGames img{
-    margin: 10px;
-}
-
-.imagem-esquerda {
-    float: left;
-    margin-right: 20px; /* Espaço entre a imagem esquerda e as imagens direitas */
-}
-
-.imagem-direita {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
