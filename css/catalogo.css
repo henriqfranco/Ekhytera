@@ -98,15 +98,30 @@ li{
     flex-direction: row;
     justify-content: space-between;
 }
-
+.carrossel{
+    overflow: scroll;
+    width: 100%;
+    margin: 5%;
+}
+.sla{
+    display: flex;
+}
 .box{
+    margin: 10px;
     background-color: white;
     padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+::-webkit-scrollbar{
+    background-color: #e0e1dd;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(27, 56, 87);
+    border-radius: 20px;
+}
 .imgbox{
     width: 457px;
     height: 266px;
@@ -132,7 +147,14 @@ li{
     text-decoration: none;
     color: rgb(65, 90, 119);
 }
-
+.carrossel2{
+    overflow: scroll;
+    width: 100%;
+    margin: 5%;
+}
+.sla2{
+    display: flex;
+}
 .container2{
     display: flex;
     flex-direction: row;
@@ -143,6 +165,7 @@ li{
 }
 
 .box2{
+    margin: 10px;
     background-color: white;
     padding: 15px;
     display: flex;
