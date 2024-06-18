@@ -10,7 +10,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 30px;
 }
 
 .logoheader{
@@ -24,6 +24,8 @@ header{
 }
 
 ul{
+    display: flex;
+    align-items: center;
     list-style: none;
 }
 
