@@ -88,6 +88,13 @@ li{
 
 .subtipos{
     display: flex;
+    background-color: rgb(199, 200, 196);
+    font-size: 32px;
+    width: 685px;
+    height: 75px;
+    display: flex;
+    align-items: right;
+    border: 1px solid rgb(157, 158, 155);
 }
 
 #tipagem{
@@ -106,20 +113,14 @@ li{
     width: 514px;
     height: 56px;
     margin-left: 15px;
+    border: 1px solid rgb(157, 158, 155);
+    background-color: rgb(199, 200, 196);
 }
 
 #tipagem ::placeholder{
     font-weight: bold;
 }
-input{
-    background-color: rgb(199, 200, 196);
-    font-size: 32px;
-    width: 685px;
-    height: 75px;
-    display: flex;
-    align-items: right;
-    border: 1px solid rgb(157, 158, 155);
-}
+
 .separado{
     font-size: 32px;
     display: flex;
@@ -196,12 +197,13 @@ table a{
     text-decoration: none;
     color: rgb(65, 90, 119);
     padding: 15px;
-    border: 2px solid black;
+    border: 2px solid rgb(13, 27, 42);
+    transition: 0.3s;
 }
 .botaovermais:hover{
     color: rgb(199, 200, 196);
     background-color:rgb(13, 27, 42);
-    border: 0px;
+    border: 2px solid rgb(13, 27, 42);
     transition: 0.3s;
 }
 /* Orcamento
@@ -211,6 +213,11 @@ table a{
     display: flex;
     justify-content: space-evenly;
 }
+
+.txtorca{
+    padding-right: 15px;
+}
+
 #modo{
     justify-content: center;
     display: flex;
@@ -218,9 +225,13 @@ table a{
     font-size: 32px;
     font-weight: bold;
 }
-#modo input{
+#modo #modos{
     width: 485px;
     height: 45px;
+    background-color: rgb(199, 200, 196);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
 }
 #filtro{
     display: flex;
@@ -229,9 +240,13 @@ table a{
     font-size: 32px;
     font-weight: bold;
 }
-#filtro input{
+#filtro #filtros{
     width: 485px;
     height: 45px;
+    background-color: rgb(199, 200, 196);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
 }
 div .imgorca{
     width: 53px;

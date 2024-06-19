@@ -131,10 +131,22 @@
                 
                 <div id="orcamento">
                     <div id="modo">
-                        <label for="">Modo:</label> <input type="text">
+                        <label class="txtorca">Modo:</label>
+                        <select name="modos" id="modos">
+                            <option value="orçamento automático">Orçamento Automático</option>
+                            <option value="orçamento manual">Orçamento Manual</option>
+                        </select>
                     </div> 
                     <div id="filtro">
-                        <label for="">Filtro:</label> <input type="text">
+                        <label class="txtorca">Filtro:</label>
+                        <select name="filtro" id="filtros">
+                            <option value="menor preço">Menor Preço</option>
+                            <option value="maior preço">Maior Preço</option>
+                            <option value="melhor desempenho">Melhor Desempenho</option>
+                            <option value="amd">AMD</option>
+                            <option value="intel">Intel</option>
+                            <option value="nvidia">NVidia</option>
+                        </select>
                     </div>
                 </div>
 
