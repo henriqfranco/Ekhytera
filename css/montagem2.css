@@ -137,7 +137,10 @@ li{
     text-decoration: none;
     color: rgb(65, 90, 119);
 }
-
+.fichavermais:hover{
+    border: 2px solid rgb(13, 27, 42);;
+    color: rgb(13, 27, 42);
+}
 .avalia{
     margin-top: 50px;
     width: 90%;
@@ -159,6 +162,10 @@ li{
     font-weight: bold;
     text-decoration: none;
     color: rgb(65, 90, 119);
+}
+.avaliavermais:hover{
+    border: 2px solid rgb(13, 27, 42);;
+    color: rgb(13, 27, 42);;
 }
 
 .avaliacoes{

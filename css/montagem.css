@@ -167,12 +167,8 @@ table a{
     font-size: 36px;
     font-weight: bold;
     background-color: rgb(199, 200, 196);
-    border: solid rgb(13, 27, 42);
-    color: rgb(13, 27, 42);
-}
-table a:hover{
-    color: midnightblue;
-    border: solid midnightblue 4px;
+    border: solid black;
+    color: rgb(65, 90, 119);
 }
 #tabela1{
     font-weight: bold;
@@ -198,11 +194,14 @@ table a:hover{
 
 .botaovermais{
     text-decoration: none;
-    color: black;
+    color: rgb(65, 90, 119);
     padding: 15px;
-    border: 3px solid black;
+    border: 2px solid black;
 }
-
+.botaovermais:hover{
+    color: rgb(13, 27, 42);
+    border: solid rgb(13, 27, 42) 2px;
+}
 /* Orcamento
  */
 #orcamento{
@@ -273,6 +272,7 @@ div .imgorca{
 }
 
 .valordinheiro{
+    margin: 0;
     font-size: 64px;
     font-weight: bold;
     color: rgb(65, 90, 119);

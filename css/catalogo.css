@@ -101,7 +101,7 @@ li{
 .carrossel{
     overflow: scroll;
     width: 100%;
-    margin: 5%;
+    margin: 5%; 
 }
 .sla{
     display: flex;
@@ -133,7 +133,7 @@ li{
 }
 
 .avaliavermais{
-    border: 2px solid black;
+    border:2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,6 +146,10 @@ li{
     font-weight: bold;
     text-decoration: none;
     color: rgb(65, 90, 119);
+}
+.avaliavermais:hover{
+    border: 2px solid rgb(27, 56, 86);
+    color: rgb(13, 27, 42);
 }
 .carrossel2{
     overflow: scroll;
