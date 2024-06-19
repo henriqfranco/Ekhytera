@@ -321,3 +321,12 @@ footer{
     margin-right: 10px;
 }
 /* ----------------------FOOTER FIM-------------------------*/
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(27, 56, 87);
+    border-radius: 10px;
+}
