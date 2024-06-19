@@ -138,8 +138,10 @@ li{
     color: rgb(65, 90, 119);
 }
 .fichavermais:hover{
-    border: 2px solid rgb(13, 27, 42);;
-    color: rgb(13, 27, 42);
+    color: rgb(199, 200, 196);
+    background-color:rgb(13, 27, 42);
+    border: solid 2px rgb(13, 27, 42);
+    transition: 0.3s;
 }
 .avalia{
     margin-top: 50px;
@@ -164,8 +166,10 @@ li{
     color: rgb(65, 90, 119);
 }
 .avaliavermais:hover{
-    border: 2px solid rgb(13, 27, 42);;
-    color: rgb(13, 27, 42);;
+    color: rgb(199, 200, 196);
+    background-color:rgb(13, 27, 42);
+    border: solid 2px rgb(13, 27, 42);
+    transition: 0.3s;
 }
 
 .avaliacoes{

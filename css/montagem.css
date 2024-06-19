@@ -199,8 +199,10 @@ table a{
     border: 2px solid black;
 }
 .botaovermais:hover{
-    color: rgb(13, 27, 42);
-    border: solid rgb(13, 27, 42) 2px;
+    color: rgb(199, 200, 196);
+    background-color:rgb(13, 27, 42);
+    border: 0px;
+    transition: 0.3s;
 }
 /* Orcamento
  */
