@@ -218,6 +218,11 @@ table a{
     padding-right: 15px;
 }
 
+option{
+    color: black;
+    font-weight: bold;
+}
+
 #modo{
     justify-content: center;
     display: flex;
