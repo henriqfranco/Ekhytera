@@ -162,7 +162,7 @@ table .imgstabela{
     justify-content: center;
     align-items: center;
 }
-table button{
+table a{
     padding: 15px;
     font-size: 36px;
     font-weight: bold;
@@ -170,9 +170,9 @@ table button{
     border: solid rgb(13, 27, 42);
     color: rgb(13, 27, 42);
 }
-table button:hover{
+table a:hover{
     color: midnightblue;
-    border: solid midnightblue;
+    border: solid midnightblue 4px;
 }
 #tabela1{
     font-weight: bold;
@@ -357,6 +357,7 @@ footer{
     margin-left: 10px;
     margin-right: 10px;
     background-color: rgb(13, 27, 42);
+    color: white;
     font-size: 32px;
 }
 
