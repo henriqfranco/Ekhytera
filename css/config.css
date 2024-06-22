@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(224, 225, 221);
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.logoheader{
+    width: 139px;
+    height: 86px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.selecmenu{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 32px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.selecmenu:hover{
+    background-color: rgb(195, 196, 191);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    position: relative;
+    float: right;
+}
+
+.user .icons{
+    display: flex;
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.user .icons:hover{
+    background-color: rgb(195, 196, 191);
+    transition: 0.3s;
+}
+
+hr{
+    width: 1297px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.geral{
+    display: flex;
+    flex-direction: column;
+    width: 1224px;
+    height: 503px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.foto{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.circulo{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgba(203, 203, 203, 1);
+}
+
+h3{
+    font-size: 40px;
+}
+
+.email{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.descricao{
+    width: 1219px;
+    height: 208px;
+    text-align: start;
+    border: 2px solid black;
+    background-color: rgb(224, 225, 221);
+}
+
+.preferencias{
+    display: flex;
+    flex-direction: column;
+    width: 1232px;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4{
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.pref{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.txts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.opcoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.opcoes p{
+    font-size: 24px;
+}
+
+.alt{
+    text-decoration: none;
+    color: rgba(65, 90, 119, 1);
+    border: 2px solid black;
+    padding: 15px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+select{
+    font-size: 32px;
+    border: none;
+    background-color: rgb(224, 225, 221);
+    text-align: center;
+}
