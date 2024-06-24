@@ -175,6 +175,13 @@ h1{
     padding: 15px;
     font-size: 36px;
     font-weight: bold;
+    transition: 0.3s;
+}
+
+.alt:hover{
+    background-color: rgb(13, 27, 42);
+    color: rgb(224, 225, 221);
+    transition: 0.3s;
 }
 
 select{
