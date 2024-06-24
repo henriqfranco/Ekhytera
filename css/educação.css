@@ -111,6 +111,7 @@ li{
     font-weight: bold;
     text-decoration: none;
     color: rgb(65, 90, 119);
+    transition: 0.3s;
 }
 .avaliavermais:hover{
     color: rgb(199, 200, 196);
